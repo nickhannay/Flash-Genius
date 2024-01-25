@@ -1,0 +1,10 @@
+{
+  "resourceName": "favoritesDB",
+  "tableName": "favoritesDB",
+  "partitionKey": {
+    "fieldName": "card_id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}

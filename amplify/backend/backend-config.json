@@ -1,0 +1,303 @@
+{
+  "api": {
+    "FlashgeniusAPIAmir": {
+      "dependsOn": [
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "flashgeniusamiraa8e827c"
+        },
+        {
+          "attributes": [
+            "Name",
+            "Arn"
+          ],
+          "category": "function",
+          "resourceName": "flashgeniusamire2f7091b"
+        }
+      ],
+      "providerPlugin": "awscloudformation",
+      "service": "API Gateway"
+    }
+  },
+  "auth": {
+    "flashgeniusamir5bb9bcc4": {
+      "customAuth": false,
+      "dependsOn": [],
+      "frontendAuthConfig": {
+        "mfaConfiguration": "OFF",
+        "mfaTypes": [
+          "SMS"
+        ],
+        "passwordProtectionSettings": {
+          "passwordPolicyCharacters": [],
+          "passwordPolicyMinLength": 8
+        },
+        "signupAttributes": [
+          "EMAIL",
+          "FAMILY_NAME",
+          "GIVEN_NAME"
+        ],
+        "socialProviders": [],
+        "usernameAttributes": [],
+        "verificationMechanisms": [
+          "EMAIL"
+        ]
+      },
+      "providerPlugin": "awscloudformation",
+      "service": "Cognito"
+    }
+  },
+  "function": {
+    "addNewFavoriteAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "createNewCardAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "createNewUserAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "deleteFavoriteCardAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "deleteFlashCardAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "flashgeniusamiraa8e827c": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "flashgeniusamire2f7091b": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "getAllUsersAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "getCurrentUserCardsAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "getCurrentUserFavoritesAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    },
+    "getCurrentUserInfoAmir": {
+      "build": true,
+      "providerPlugin": "awscloudformation",
+      "service": "Lambda"
+    }
+  },
+  "parameters": {
+    "AMPLIFY_function_addNewFavoriteAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "addNewFavoriteAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_addNewFavoriteAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "addNewFavoriteAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_createNewCardAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createNewCardAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_createNewCardAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createNewCardAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_createNewUserAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createNewUserAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_createNewUserAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "createNewUserAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_deleteFavoriteCardAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "deleteFavoriteCardAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_deleteFavoriteCardAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "deleteFavoriteCardAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_deleteFlashCardAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "deleteFlashCardAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_deleteFlashCardAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "deleteFlashCardAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_flashgeniusamiraa8e827c_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "flashgeniusamiraa8e827c"
+        }
+      ]
+    },
+    "AMPLIFY_function_flashgeniusamiraa8e827c_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "flashgeniusamiraa8e827c"
+        }
+      ]
+    },
+    "AMPLIFY_function_flashgeniusamire2f7091b_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "flashgeniusamire2f7091b"
+        }
+      ]
+    },
+    "AMPLIFY_function_flashgeniusamire2f7091b_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "flashgeniusamire2f7091b"
+        }
+      ]
+    },
+    "AMPLIFY_function_getAllUsersAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getAllUsersAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_getAllUsersAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getAllUsersAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_getCurrentUserCardsAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getCurrentUserCardsAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_getCurrentUserCardsAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getCurrentUserCardsAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_getCurrentUserFavoritesAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getCurrentUserFavoritesAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_getCurrentUserFavoritesAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getCurrentUserFavoritesAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_getCurrentUserInfoAmir_deploymentBucketName": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getCurrentUserInfoAmir"
+        }
+      ]
+    },
+    "AMPLIFY_function_getCurrentUserInfoAmir_s3Key": {
+      "usedBy": [
+        {
+          "category": "function",
+          "resourceName": "getCurrentUserInfoAmir"
+        }
+      ]
+    }
+  },
+  "storage": {
+    "FlashcardsDBAmir": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "UserDB": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    },
+    "favoritesDB": {
+      "providerPlugin": "awscloudformation",
+      "service": "DynamoDB"
+    }
+  }
+}

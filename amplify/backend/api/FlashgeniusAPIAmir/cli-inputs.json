@@ -1,0 +1,19 @@
+{
+  "version": 1,
+  "paths": {
+    "/flashcards": {
+      "name": "/flashcards",
+      "lambdaFunction": "flashgeniusamiraa8e827c",
+      "permissions": {
+        "setting": "open"
+      }
+    },
+    "/favorites": {
+      "name": "/favorites",
+      "lambdaFunction": "flashgeniusamire2f7091b",
+      "permissions": {
+        "setting": "open"
+      }
+    }
+  }
+}

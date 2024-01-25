@@ -1,0 +1,74 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-flashgeniusamir-dev-192512-authRole",
+      "UnauthRoleArn": "arn:aws:iam::498062363193:role/amplify-flashgeniusamir-dev-192512-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::498062363193:role/amplify-flashgeniusamir-dev-192512-authRole",
+      "Region": "us-west-1",
+      "DeploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+      "UnauthRoleName": "amplify-flashgeniusamir-dev-192512-unauthRole",
+      "StackName": "amplify-flashgeniusamir-dev-192512",
+      "StackId": "arn:aws:cloudformation:us-west-1:498062363193:stack/amplify-flashgeniusamir-dev-192512/9966e3c0-d5b4-11ed-af76-06c97e1ac285",
+      "AmplifyAppId": "d3jius2rn0lss5"
+    },
+    "categories": {
+      "function": {
+        "flashgeniusamiraa8e827c": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/flashgeniusamiraa8e827c-4242516e393437643153-build.zip"
+        },
+        "flashgeniusamire2f7091b": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/flashgeniusamire2f7091b-3543393565717476676b-build.zip"
+        },
+        "getCurrentUserCardsAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/getCurrentUserCardsAmir-49733739555149506976-build.zip"
+        },
+        "createNewCardAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/createNewCardAmir-6638304b682f432b3745-build.zip"
+        },
+        "deleteFlashCardAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/deleteFlashCardAmir-75536247797133574d4e-build.zip"
+        },
+        "getAllUsersAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/getAllUsersAmir-4e6c5146376f6b556a54-build.zip"
+        },
+        "createNewUserAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/createNewUserAmir-797a523043756f6a3665-build.zip"
+        },
+        "getCurrentUserInfoAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/getCurrentUserInfoAmir-77324251656c2b725737-build.zip"
+        },
+        "getCurrentUserFavoritesAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/getCurrentUserFavoritesAmir-3670526165674e546a39-build.zip"
+        },
+        "addNewFavoriteAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/addNewFavoriteAmir-6563306247365541796e-build.zip"
+        },
+        "deleteFavoriteCardAmir": {
+          "deploymentBucketName": "amplify-flashgeniusamir-dev-192512-deployment",
+          "s3Key": "amplify-builds/deleteFavoriteCardAmir-495557496b444e6c6a44-build.zip"
+        }
+      },
+      "api": {
+        "FlashgeniusAPIAmir": {}
+      },
+      "storage": {
+        "FlashcardsDBAmir": {},
+        "UserDB": {},
+        "favoritesDB": {}
+      },
+      "auth": {
+        "flashgeniusamir5bb9bcc4": {}
+      }
+    }
+  }
+}

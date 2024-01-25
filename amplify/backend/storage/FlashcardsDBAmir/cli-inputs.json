@@ -1,0 +1,10 @@
+{
+  "resourceName": "FlashcardsDBAmir",
+  "tableName": "FlashcardsDBAmir",
+  "partitionKey": {
+    "fieldName": "card_id",
+    "fieldType": "string"
+  },
+  "gsi": [],
+  "triggerFunctions": []
+}
